@@ -1,8 +1,5 @@
 import re
 import urllib.request 
-import sys
-
-print(sys.getdefaultencoding())
 
 def getHtml(url):
     html = urllib.request.urlopen(url).read()
