@@ -1,9 +1,12 @@
 '''
 Created on 2016年10月18日
 
-@author: lenovo
+@author: MurphySL
 '''
-from baidu_spider import url_manager , html_parser, html_output , html_download
+import url_manager
+import html_parser
+import html_output
+import html_download
 
 class SpiderMain(object):
     
@@ -35,8 +38,6 @@ class SpiderMain(object):
     
         self.outputer.output_html()
     
-
-
 
 if __name__ == '__main__':
     root_url = "http://baike.baidu.com/view/21087.htm"

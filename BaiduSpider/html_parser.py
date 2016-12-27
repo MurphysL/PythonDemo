@@ -1,7 +1,7 @@
 '''
 Created on 2016年10月18日
 
-@author: lenovo
+@author: MurphySL
 '''
 from bs4 import BeautifulSoup
 import re
